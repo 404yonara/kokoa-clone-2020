@@ -14,64 +14,92 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div class="top-bar">
-      <div class="top-bar__column"><i class="fas fa-times"></i></div>
-      <div class="top-bar__column"><span>Playlist</span></div>
-      <div class="top-bar__column"><span> </span></div>
+    <div class="header">
+      <div class="header__column"><i class="fas fa-stream"></i></div>
+      <div class="header__column"><span class=>library</span></div>
+      <div class="header__column"><i class="fas fa-shopping-basket"></i></div>
+    </div>
+
+    <div class="search">
+      <span class="serach__text">Search books....</span>
+      <div><i class="fas fa-search"></i></div>
     </div>
 
     <div class="main">
-      <div class="main__column">
-        <div class="main__image-box">
-          <i class="far fa-image fa-3x"></i>
-        </div>
-      </div>
-      <div class="main__column">
-        <div class="main__song"><span> Jukkai</span></div>
-        <div class="main__singer"><span>by Nakamori Akina</span></div>
-      </div>
-    </div>
-
-    <div class="play-bar">
-      <div class="play-bar__play-button">
-        <i class="fas fa-play"></i>
-        <span> Play</span>
-      </div>
-      <div class="play-bar__heart-button">
-        <i class="fas fa-hand-holding-heart"></i>
-      </div>
-      <div class="play-bar__plus-button">
-        <i class="fas fa-plus-square"></i>
-      </div>
-    </div>
-
-    <div class="list">
-      <div class="list__songs">
-        <div class="list__songs__image"></div>
-        <div class="list__songs__name">
-          <span>Evanescent</span> <span>Vamps</span>
+      <h1 class="main__1st">Book of the day</h1>
+      
+      <div class="main__1st__column">
+        <img class="main__1st__column__image"
+        width=110px
+       src="https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg" />
+        <div class="main__1st__column__article">
+          <div class="main__1st__column__detail">
+          <h2>No Fixed Adobe</h2>
+          <span>Journey Through</span>
+          <div><img class="stars-1"
+            width="80px"
+            src="https://icon-library.com/images/4-star-icon/4-star-icon-23.jpg"/></div>
+          </div>
+          <div class="main__column__detail__buttons">
+            <span>Journey</span>
+            <span>Biography</span>
+          </div>
+          <div class="main__column__detail__buttons2">
+            <div class="main__column__detail__buttons2__bookmark"><i class="fas fa-bookmark"></i></div>
+            <span class="main__column__detail__buttons2__book-now">Book Now</span>
+          </div>
         </div>
       </div>
 
-      <div class="list__songs">
-        <div class="list__songs__image"></div>
-        <div class="list__songs__name">
-          <span>Stand By Me</span> <span>9mm Parabellum Bullet</span>
+      <h1 class="main__2nd">Top Adventures</h1>
+      <div class="main__2nd__column">
+        <div class="main__2nd__column__list">
+          <img class="movie"
+            width="80px"
+            src="https://img.extmovie.com/files/attach/images/135/910/640/055/56144ecea4457f2bd9cd3ac4bf12c1e3.jpg"/>
+          <img class="stars-2"
+            width="50px"
+            src="https://icon-library.com/images/4-star-icon/4-star-icon-23.jpg"/>
+        </div>
+        <div class="main__2nd__column__list">
+          <img class="movie"
+            width="80px"
+            src="https://img.extmovie.com/files/attach/images/135/910/640/055/6a98a09528635cc4917ac9bf6f38c96f.jpg"/>
+          <img class="stars-2"
+          width="50px"
+          src="https://icon-library.com/images/4-star-icon/4-star-icon-23.jpg"/>
+        </div>
+        <div class="main__2nd__column__list">
+          <img class="movie"
+            width="80px"
+            src="https://img.extmovie.com/files/attach/images/135/910/640/055/72c12eec75e7d49ccfcf75b04c6b7b10.jpg"/>
+          <img class="stars-2"
+          width="50px"
+          src="https://icon-library.com/images/4-star-icon/4-star-icon-23.jpg"/>
+        </div>
+        <div class="main__2nd__column__list">
+          <img class="movie"
+            width="80px"
+            src="https://img.extmovie.com/files/attach/images/135/910/640/055/d5925f11f4bf8a6315ef688bbe55dd06.jpg"/>
+          <img class="stars-2"
+          width="50px"
+          src="https://icon-library.com/images/4-star-icon/4-star-icon-23.jpg"/>
         </div>
       </div>
 
-      <div class="list__songs">
-        <div class="list__songs__image"></div>
-        <div class="list__songs__name">
-          <span>Re:birth</span> <span>Acid Black Cherry</span>
-        </div>
-      </div>
-
-      <div class="list__songs">
-        <div class="list__songs__image"></div>
-        <div class="list__songs__name">
-          <span>I MISS YOU</span> <span>DREAMCATCHER</span>
+      <h1 class="main__3rd">Popular Authors</h1>
+      <div class="main__3rd__column">
+        <img class="main__3rd__column__image"
+        width="100px"
+        src="https://i.pinimg.com/originals/c5/79/e1/c579e1964d6c2e089a769309aab992d4.png"/>
+        <div class="main__3rd__column__detail"/>
+          <h2>Acid Black Cherry Hayashi Yasunori</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel
+            non mattis lorem. Donec viverra iaculis magna.
+          </p>
         </div>
       </div>
     </div>
